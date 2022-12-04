@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-:root {
-  --bgcolor: #ff0000;
-}
-
 body {
   background-image: url(/kepek/hatter.jpg);
 }
@@ -37,7 +33,6 @@ header {
 header h1 {
   color: red;
   text-align: center;
-  line-height: 300px;
   font-weight: bold;
   font-family: cursive;
   padding: 60px;
@@ -52,7 +47,7 @@ nav ul {
   display: grid;
   grid-auto-flow: column;
   list-style-type: none;
-  background-color: #ff0000;
+  background-color: red;
   text-align: center;
 }
 
@@ -100,7 +95,6 @@ section.content p {
 
 .float-right {
   float: right;
-  /* height: 200px; */
   width: 200px;
   filter: drop-shadow(2px 5px 2px #000);
   border-radius: 15px;
@@ -113,7 +107,7 @@ section.content p {
 
 footer {
   grid-area: footer;
-  background-color: #ff0000;
+  background-color: red;
   text-align: center;
   padding: 10px;
   font-size: 0.75rem;
